@@ -24,6 +24,5 @@
     </div>
     <div class="underbox2"></div>
   </div>
-  <div class="spacer"></div>
   <?php include('logos.php'); ?>
 </div>

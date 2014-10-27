@@ -13,7 +13,7 @@
               <div class="hbdesc">GET THOUSANDS OF REAL VISITORS TO YOUR WEBSITE<br />
                 QUICKLY AND AFFORDABLY.
               </div>
-              <div class="buybutton"><a href="index.php?page_id=4">ORDER NOW</a></div>
+              <div class="buybutton"><a href="order-traffic">ORDER NOW</a></div>
             </div>
           </li>
           <li>
@@ -22,7 +22,7 @@
               <div class="hbdesc">GET 100% HUMAN TRAFFIC. WE NEVER USE BOTS OR OTHER <br />
               SPAM METHODS OF GENERATING TRAFFIC.
               </div>
-              <div class="buybutton"><a href="index.php?page_id=4">ORDER NOW</a></div>
+              <div class="buybutton"><a href="order-traffic">ORDER NOW</a></div>
             </div>
           </li>
           <li>
@@ -31,7 +31,7 @@
               <div class="hbdesc">WE CAN GIVE YOUR WEBSITE THE EXPOSURE IT NEEDS<br />
                 TO GROW AND INCREASE REVENUE.
               </div>
-              <div class="buybutton"><a href="index.php?page_id=4">ORDER NOW</a></div>
+              <div class="buybutton"><a href="order-traffic">ORDER NOW</a></div>
             </div>
           </li>
         </ul>

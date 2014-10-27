@@ -14,12 +14,36 @@
 <div id="Top">
   <div id="InTop">
     <ul>
-      <li><a href="contact-us">CONTACT US</a></li>
-      <li><a href="faq">FAQ</a></li>
-      <li><a href="about-us">ABOUT US</a></li>
-      <li><a href="order-traffic">ORDER TRAFFIC</a></li>
-      <li><a href="<?php echo home_url();?>" id="Current">HOME</a></li>
+      <?php if(is_page( 'contact-us' )){ ?>
+	      <li><a href="contact-us" id="Current">CONTACT US</a></li>
+	      <?php } else { ?>
+	      <li><a href="contact-us">CONTACT US</a></li>
+	  <?php } ?>
+
+	  <?php if(is_page( 'faq' )){ ?>
+	  	  <li><a href="faq" id="Current">FAQ</a></li>
+	  	  <?php } else { ?>
+	  	  <li><a href="faq">FAQ</a></li>
+	  <?php } ?>
+
+	  <?php if(is_page( 'about-us' )){ ?>
+	  	  <li><a href="about-us" id="Current">ABOUT US</a></li>
+	  	  <?php } else { ?>
+	  	  <li><a href="about-us">ABOUT US</a></li>
+	  <?php } ?>
+
+	  <?php if(is_page( 'order-traffic' )){ ?>
+	  	  	  <li><a href="order-traffic" id="Current">ORDER TRAFFIC</a></li>
+	  	  	  <?php } else { ?>
+	  	  	  <li><a href="order-traffic">ORDER TRAFFIC</a></li>
+	  <?php } ?>
+
+	  <?php if(is_home()){ ?>
+	  	  	  <li><a href="<?php echo home_url();?>" id="Current">HOME</a></li>
+	  	  	  <?php } else { ?>
+	  	  	  <li><a href="<?php echo home_url();?>">HOME</a></li>
+	  <?php } ?>
     </ul>
-    <a href="<?php bloginfo('template_url'); ?>/index.php"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Gain Visitor" name="Logo" width="385" height="60" border="0" id="Logo" /></a>
+    <a href="<?php echo home_url();?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Gain Visitor" name="Logo" width="385" height="60" border="0" id="Logo" /></a>
   </div>
 </div>

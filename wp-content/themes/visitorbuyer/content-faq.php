@@ -82,6 +82,5 @@ All the above mentioned sites are redirecting sites. Our targeted traffic servic
 <br />
 If you promote an affiliate or CPA offer site, then you need to alert the affiliate manager or network that you are buying traffic. There are networks that don't allow this and your affiliate account could be suspended. We aren't responsible for any revocation or suspension of accounts when you use our traffic services indirectly or directly.</p>
 </div>
-  <div class="spacer"></div>
  <?php include('logos.php'); ?>
 </div>
