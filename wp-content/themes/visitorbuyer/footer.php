@@ -1,26 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gain Visitor - Buy Quality Website Traffic</title>
-<meta name="description" content="Boost your website traffic today and get thousands of real, quality visitors. " />
-<meta name="keywords" content="website traffic, web traffic, buy website traffic, purchase website traffic, alexa traffic, adult traffic, targeted traffic" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery/jquery-latest.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slider/unslider.min.js"></script>
-<link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
-<body>
-<div id="Top">
-  <div id="InTop">
-    <ul>
-      <li><a href="<?php bloginfo('template_url'); ?>/contact/index.html">CONTACT US</a></li>
-      <!--li><a href="<?php bloginfo('template_url'); ?>/blog/index.html">BLOG</a></li-->
-      <li><a href="<?php bloginfo('template_url'); ?>/faqs/index.html">FAQ</a></li>
-      <li><a href="<?php bloginfo('template_url'); ?>/about/index.html">ABOUT US</a></li>
-      <li><a href="<?php bloginfo('template_url'); ?>/order/index.html">ORDER TRAFFIC</a></li>
-      <li><a href="/index.php" id="Current">HOME</a></li>
-    </ul>
-    <a href="<?php bloginfo('template_url'); ?>/index.php"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Gain Visitor" name="Logo" width="385" height="60" border="0" id="Logo" /></a>
-  </div>
+<div id="Counter">NUMBER OF VISITORS DELIVERED SO FAR:
+  <div id="Count"></div>
 </div>
+<div id="Btm">
+	<a href="#">HOME</a>
+	<a href="#">BUY WEBSITE TRAFFIC</a>
+	<a href="#">ABOUT US</a>
+	<a href="#">FAQ</a>
+	<a href="#">BLOG</a>
+	<a href="#">CONTACT US</a>
+</div>
+<script type="text/javascript">
+var START_DATE = new Date("Oct 11, 2013 13:00:00"); // put in the starting date here
+var INTERVAL = 1; // in seconds
+var INCREMENT = 9; // increase per tick
+var START_VALUE = 9001; // initial value when it's the start date
+var count = 0;
+
+window.onload = function()
+{
+ var msInterval = INTERVAL * 1000;
+ var now = new Date();
+ count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
+ document.getElementById('Count').innerHTML = count;
+ setInterval("count += INCREMENT; document.getElementById('Count').innerHTML = count;", msInterval);
+}
+</script>
+</body>
+</html>

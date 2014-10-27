@@ -1,7 +1,0 @@
-[24-Oct-2014 11:32:40 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/tutorwgy/public_html/visitorbuyer/wp-content/themes/visitorbuyer/index.php on line 1
-[24-Oct-2014 11:32:52 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/tutorwgy/public_html/visitorbuyer/wp-content/themes/visitorbuyer/index.php on line 1
-[24-Oct-2014 12:12:02 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/tutorwgy/public_html/visitorbuyer/wp-content/themes/visitorbuyer/index.php on line 1
-[24-Oct-2014 12:14:16 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/tutorwgy/public_html/visitorbuyer/wp-content/themes/visitorbuyer/index.php on line 1
-[24-Oct-2014 12:14:19 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/tutorwgy/public_html/visitorbuyer/wp-content/themes/visitorbuyer/index.php on line 1
-[24-Oct-2014 12:14:26 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/tutorwgy/public_html/visitorbuyer/wp-content/themes/visitorbuyer/index.php on line 1
-[24-Oct-2014 15:35:25 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/tutorwgy/public_html/visitorbuyer/wp-content/themes/visitorbuyer/index.php on line 1

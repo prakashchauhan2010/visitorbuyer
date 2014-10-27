@@ -14,12 +14,11 @@
 <div id="Top">
   <div id="InTop">
     <ul>
-      <li><a href="<?php bloginfo('template_url'); ?>/contact/index.html">CONTACT US</a></li>
-      <!--li><a href="<?php bloginfo('template_url'); ?>/blog/index.html">BLOG</a></li-->
-      <li><a href="<?php bloginfo('template_url'); ?>/faqs/index.html">FAQ</a></li>
-      <li><a href="<?php bloginfo('template_url'); ?>/about/index.html">ABOUT US</a></li>
-      <li><a href="<?php bloginfo('template_url'); ?>/order/index.html">ORDER TRAFFIC</a></li>
-      <li><a href="/index.php" id="Current">HOME</a></li>
+      <li><a href="contact-us">CONTACT US</a></li>
+      <li><a href="faq">FAQ</a></li>
+      <li><a href="about-us">ABOUT US</a></li>
+      <li><a href="order-traffic">ORDER TRAFFIC</a></li>
+      <li><a href="<?php echo home_url();?>" id="Current">HOME</a></li>
     </ul>
     <a href="<?php bloginfo('template_url'); ?>/index.php"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Gain Visitor" name="Logo" width="385" height="60" border="0" id="Logo" /></a>
   </div>

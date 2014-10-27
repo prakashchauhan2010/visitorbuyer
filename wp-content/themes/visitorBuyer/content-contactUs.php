@@ -1,5 +1,5 @@
 <!--
- Page for displaying About Us contents.
+ Page for displaying Contact Us contents.
  @package WordPress
  @subpackage visitorbuyer
  -->

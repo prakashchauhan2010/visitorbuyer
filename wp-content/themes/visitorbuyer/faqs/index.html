@@ -1,24 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gain Visitor - Frequently asked questions</title>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-<link href="../style.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="../images/favicon.ico" />
-<body>
-<div id="Top">
-  <div id="InTop">
-    <ul>
-      <li><a href="../contact/index.html">CONTACT US</a></li>
-      <li><a href="../faqs/index.html" id="Current">FAQ</a></li>
-      <li><a href="../about/index.html">ABOUT US</a></li>
-      <li><a href="../order/index.html">ORDER TRAFFIC</a></li>
-      <li><a href="../index.html">HOME</a></li>
-    </ul>
-    <a href="../index.html"><img src="../images/logo.png" alt="Gain Visitor" name="Logo" width="385" height="60" border="0" id="Logo" /></a>
-  </div>
-</div>
 <div class="mainspace" id="Main">
   <div id="Content">
     <h1>Frequently Asked Questions</h1>
@@ -99,41 +78,5 @@ All the above mentioned sites are redirecting sites. Our targeted traffic servic
 If you promote an affiliate or CPA offer site, then you need to alert the affiliate manager or network that you are buying traffic. There are networks that don't allow this and your affiliate account could be suspended. We aren't responsible for any revocation or suspension of accounts when you use our traffic services indirectly or directly.</p>
 </div>
   <div class="spacer"></div>
-  <div id="Logos"> WEBSITE TRAFFIC HAS BEEN MENTIONED IN<br />
-    <img src="../images/logos.png" alt="Web Traffic" width="950" height="38" /> </div>
+ <?php include('logos.php'); ?>
 </div>
-<div id="Counter">NUMBER OF VISITORS DELIVERED SO FAR:
-  <div id="Count"></div>
-</div>
-<div id="Btm">
-	<a href="http://visitorbuyer.tutorialhub.in">HOME</a>
-	<a href="../order/index.html">BUY WEBSITE TRAFFIC</a> 
-	<a href="../about/index.html">ABOUT US</a>
-	<a href="../faqs/index.html" id="Current">FAQ</a>
-	<a href="../blog/index.html">BLOG</a>
-	<a href="../contact/index.html">CONTACT US</a>
-	<div id="Social">
-		<a href="http://facebook.com/"><img src="images/fb.png" alt="Facebook" width="25" height="25" border="0" /></a>
-		<a href="http://twitter.com/"><img src="images/tw.png" alt="Twitter" width="25" height="25" border="0" /></a>
-		<a href="http://plus.google.com/"><img src="images/gp.png" alt="Google Plus" width="25" height="25" border="0" /></a></div>
-  <div id="Copy">Copyright © Gain Visitor
-  2014</div>
-</div>
-<script type="text/javascript">
-var START_DATE = new Date("Oct 11, 2013 00:00:00"); // put in the starting date here
-var INTERVAL = 1; // in seconds
-var INCREMENT = 9; // increase per tick
-var START_VALUE = 9001; // initial value when it's the start date
-var count = 0;
-
-window.onload = function()
-{
- var msInterval = INTERVAL * 1000;
- var now = new Date();
- count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
- document.getElementById('Count').innerHTML = count;
- setInterval("count += INCREMENT; document.getElementById('Count').innerHTML = count;", msInterval);
-}
-</script>
-</body>
-</html>
